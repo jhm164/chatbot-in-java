@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml>
+  <category>
+    <pattern>WHO ARE YOU</pattern>
+    <template>I am Alice, nice to meet you!</template>
+  </category>
+<category>
+  <pattern>HELLO SIR</pattern>
+    <template>welcome in idea sir how can i help you</template>
+  </category>
+<category>
+  <pattern>I AM FACING PROBLEM IN NETWORK SINCE YESTERDAY</pattern>
+    <template>can you please elaborate your problem please sir</template>
+  </category>
+  <category>
+  <pattern>YESTERDAY AFTERNOON I FOUND MY INTENET NOT WORKING</pattern>
+    <template>ok i registrd your complain sir,please tell me your good name</template>
+  </category>
+ <category>
+  <pattern>NAME IS SAURABH</pattern>
+    <template>ok <input index="1"/> sir please put your device in airoplane mode</template>
+  </category>
+  <category>
+ <pattern>OK DONE</pattern>
+    <template>now again check connection</template>
+  </category>
+  <category>
+  <pattern>PROBLEM REMAIN SAME</pattern>
+    <template>ok now restart your device and check once again</template>
+  </category>
+   <category>
+  <pattern>NOT WORKED</pattern>
+    <template>ok sir can you tell me your address</template>
+  </category>
+   <category>
+  <pattern>I AM IN KHAMSHET</pattern>
+    <template>ok sir let me check details</template>
+  </category>
+   <category>
+  <pattern>OK TAKE YOUR TIME</pattern>
+    <template>i just found that problem is your region it will solve within in 2  hours</template>
+  </category>
+  <category>
+  <pattern>OK PLEASE DO IT AS SOON AS POSSIBLE</pattern>
+    <template>yes sir definetly</template>
+  </category>
+  <category>
+  <pattern>THANKS</pattern>
+    <template>your welcome sir</template>
+  </category>
+  <category>
+    <pattern>WHAT TIME IS NOW</pattern>
+    <template>Now is <date/>.</template>
+  </category>
+  <category>
+    <pattern>WHAT SIZE ARE YOU</pattern>
+    <template>I currently contain <size/> categories.</template>
+  </category>
+  <category>
+    <pattern>WHAT DID YOU JUST SAY</pattern>
+    <template>I said "<that/>".</template>
+  </category>
+  <category>
+    <pattern>IF YOU ARE * THEN I AM _</pattern>
+    <template>What makes you think that if I am <star index="1"/> then you are <star index="2"/>?</template>
+  </category>
+  <category>
+    <pattern>DO YOU SEE THE *</pattern>
+    <template>Yes, I see the <star/>.</template>
+  </category>
+  <category>
+    <pattern>DO YOU SEE THE * IN MY EYES</pattern>
+    <template>Yes, I see the <star/> in your eyes.</template>
+  </category>
+  <category>
+    <pattern>HI YA</pattern>
+    <template><srai>HELLO</srai></template>
+  </category>
+  <category>
+    <pattern>HELLO</pattern>
+    <template>
+      Hello <get name="name"/>!
+      My name is Alice, who are you?
+    </template>
+  </category>
+  <category>
+    <pattern>GREETINGS FROM *</pattern>
+    <template><srai>GREETING <star/></srai></template>
+  </category>
+  <category>
+    <pattern>MY NAME IS *</pattern>
+    <template><srai>GREETING <star/></srai></template>
+  </category>
+  <category>
+    <pattern>NAME IS *</pattern>
+    <template>'kay. <srai>GREETING <star/></srai> What's up?</template>
+  </category>
+  <category>
+    <pattern>I AM *</pattern>
+    <template><srai>GREETING <star/></srai></template>
+  </category>
+  <category>
+    <pattern>I AM CALLED *</pattern>
+    <template><srai>GREETING <star/></srai></template>
+  </category>
+  <category>
+    <pattern>GREETING *</pattern>
+    <template>
+      Nice to meet you, <set name="name"><star/></set>. :-)
+      <gossip><get name="name"/> logged in.</gossip>
+    </template>
+  </category>
+  <category>
+    <pattern>NICE TO MEET YOU TOO</pattern>
+    <template>Thank you, <get name="name"/>.</template>
+  </category>
+  <category>
+    <pattern>WHAT IS *</pattern>
+    <template>Sorry, I don't know what <star/> is.</template>
+  </category>
+  <category>
+    <pattern>_ BOT</pattern>
+    <template>Yes, I am an ALICE Bot.</template>
+  </category>
+  <category>
+    <pattern>_ NAME</pattern>
+    <template>My name is Alice, nice to meet you!</template>
+  </category>
+  <category>
+    <pattern>TELL ME ABOUT *</pattern>
+    <template><sr/></template>
+  </category>
+  <category>
+    <pattern>PRINT THIS *</pattern>
+    <template><system>result = "<star/>";</system></template>
+  </category>
+  <category>
+    <pattern>*</pattern>
+    <template>I am sorry, my answers are limited -- you must provide the right questions.</template>
+  </category>
+</aiml>

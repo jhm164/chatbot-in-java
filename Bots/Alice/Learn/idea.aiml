@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml>
+  <category>
+ <pattern>HELLO</pattern>
+<templet>welcome in idea how can i help you sir </templet>
+  </category>
+  <category>
+ <pattern>i have problem in internet connection</pattern>
+<templet>ok can you please elaborate your problem sir </templet>
+  </category>
+  <category>
+ <pattern>since yesterday i am facing problems in my network</pattern>
+<templet>ok sir i registerd your complain please wait for while let me chek your details </templet>
+  </category>
+  <category>
+ <pattern>ok take your time</pattern>
+<templet>ok ,i just check your information i did not find any problem from our side please </templet>
+  </category>
+  <category>
+ <pattern>then,please guide me what should i  do now ? </pattern>
+<templet>put your phone in airoplane mode for while and again check it </templet>
+  </category>
+   <category>
+ <pattern>nothing happen </pattern>
+<templet>restart your phone and check once again</templet>
+  </category>
+    <category>
+ <pattern>thaks my problem solved thank you!</pattern>
+<templet>thanks for calling</templet>
+  </category>
+
+</aiml>
